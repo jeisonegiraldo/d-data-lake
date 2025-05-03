@@ -1,0 +1,1 @@
+CREATE SCHEMA IF NOT EXISTS `data-lake-arch.silver_transaction`;

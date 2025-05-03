@@ -1,0 +1,1 @@
+CREATE SCHEMA IF NOT EXISTS `data-lake-arch.gold_ba`;
