@@ -13,7 +13,7 @@ if [ -z "$1" ]; then
 fi
 env=$1
 echo "bigquery_sql_build"
-file_list=$(jq -r '.bigquery_sp[]' ./datapath-lake/deploy/deploy_$env.json)
+file_list=$(jq -r '.bigquery_sp[]' ./deploy/deploy_$env.json)
 echo $file_list
 for file in $file_list; do
   if [ -f ".$file" ]; then
